@@ -15,28 +15,22 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="ch1_3.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="test_my_stack.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="_main.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="ch1_3.h">
+    <ClInclude Include="basics.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="prelude.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="my_stack.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="tuple.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="basics_test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="constexpr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="varadic-parameters.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

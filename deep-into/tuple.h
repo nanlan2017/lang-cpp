@@ -36,6 +36,7 @@ struct tuple_element<n, Tuple<ArgsWrapper...>>
 	//! 把template struct当成函数来用 ——>  其数据就是 类型、整形 (template params就是参数）
 	//!                              ——>  通过特化实现选择结构（乃至IF)
 	//!                              ——>  通过递归实现循环
+	/*
 	template<typename T,typename...Args>
 	struct helper<0,T,Args>
 	{
@@ -44,7 +45,7 @@ struct tuple_element<n, Tuple<ArgsWrapper...>>
 	template<size_t m, typename T, typename ...Args>
 	struct helper : public helper<m-1, Args...,void>
 	{};
-
+	*/
 	/*------------------------------*/
 	using type = helper<n, ArgsWrapper..., void>::type;
 };

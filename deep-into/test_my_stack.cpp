@@ -11,7 +11,7 @@ void test_my_stack()
 	str_stack.pop();
 }
 
-void main()
+void main_stack()
 {
 	//test_my_stack();
 	test_snode();

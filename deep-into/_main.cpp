@@ -1,6 +1,6 @@
 #include "tuple.h"
 
-void main()
+void main_tuple()
 {
 	
 }
