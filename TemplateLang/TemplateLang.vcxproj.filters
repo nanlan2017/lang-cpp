@@ -32,5 +32,8 @@
     <ClCompile Include="varadic-parameters.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="curry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

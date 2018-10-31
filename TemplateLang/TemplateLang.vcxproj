@@ -124,6 +124,7 @@
   <ItemGroup>
     <ClCompile Include="basics_test.cpp" />
     <ClCompile Include="constexpr.cpp" />
+    <ClCompile Include="curry.cpp" />
     <ClCompile Include="varadic-parameters.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
