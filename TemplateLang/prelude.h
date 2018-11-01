@@ -10,7 +10,9 @@
 #include <algorithm>
 
 #include <memory>
-
+//x=============================================================================================
+#define static_const static const
+#define static_constexpr static constexpr
 
 #define PRINT(expression)  std::cout << expression << std::endl;
 using namespace std;

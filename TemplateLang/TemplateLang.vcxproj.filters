@@ -21,6 +21,33 @@
     <ClInclude Include="prelude.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="10-5_Factorial.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="10-10_traits.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="10-10_cons_list.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="10-10_lisp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="10-11_controls.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="haskell_to_cpp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="github_lisp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="haskell_subset.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="for_test_use.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="basics_test.cpp">

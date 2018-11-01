@@ -118,7 +118,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="10-10_cons_list.h" />
+    <ClInclude Include="10-10_lisp.h" />
+    <ClInclude Include="10-10_traits.h" />
+    <ClInclude Include="10-11_controls.h" />
+    <ClInclude Include="10-5_Factorial.h" />
     <ClInclude Include="basics.h" />
+    <ClInclude Include="for_test_use.h" />
+    <ClInclude Include="github_lisp.h" />
+    <ClInclude Include="haskell_subset.h" />
+    <ClInclude Include="haskell_to_cpp.h" />
     <ClInclude Include="prelude.h" />
   </ItemGroup>
   <ItemGroup>
