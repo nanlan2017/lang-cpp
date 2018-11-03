@@ -48,6 +48,9 @@
     <ClInclude Include="for_test_use.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="10-10_poly_list.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="basics_test.cpp">

@@ -120,6 +120,7 @@
   <ItemGroup>
     <ClInclude Include="10-10_cons_list.h" />
     <ClInclude Include="10-10_lisp.h" />
+    <ClInclude Include="10-10_poly_list.h" />
     <ClInclude Include="10-10_traits.h" />
     <ClInclude Include="10-11_controls.h" />
     <ClInclude Include="10-5_Factorial.h" />

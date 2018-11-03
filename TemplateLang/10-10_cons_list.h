@@ -188,7 +188,31 @@ struct map_
 {
 	using Ret = typename List<F<Args>::val...>::Ret;
 };
-/*----------------------------------*///todo
+/*----------------------------------*///todo  Last
+//!  注意惰性求值（递归终止时，不要再被递归一步！）
+
+// last [x] = x
+// last (x:xs) = last xs
+
+template<typename List>
+struct Last;
+
+// last (x:xs) = if (null? xs) then x else last xs
+//!  null? xs  就对应的   last (x:End) 这个特化嘛！
+template<int headval,typename Tail>
+struct Last<Cons<headval,Tail>>
+{
+	//using Ret = typename Last<Tail>::Ret;
+	enum { val = Last<Tail>::val };
+};
+
+template<int headval>
+struct Last<Cons<headval,End>>
+{
+	//using Ret = Head;
+	enum { val = headval};
+};
+// ---------------------------------------
 
 inline void test_cons()
 {
@@ -209,8 +233,9 @@ inline void test_cons()
 	using reversed_list1 = Reverse<added_list1>::Ret;
 	using mapped_square = Map<reversed_list1, Square>::Ret;
 
-	using mapped_new = map_<Square,3,7>::Ret;
-
+	// map_, last
+	using mapped_new = map_<Square,3,7,10>::Ret;
+	auto last = Last<mapped_new>::val;
 }
 //x==========================================================================================================================
 
