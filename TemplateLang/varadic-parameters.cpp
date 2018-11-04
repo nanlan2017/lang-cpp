@@ -147,7 +147,7 @@ struct Multiply<>
 //x----------------------------------------------------------------------
 
 
-void main()
+void main_varadic()
 {
 	cout << sum(3, 1, 2, 3) <<endl;
 	cout << sum(4, 1, 2, 3)<<endl;//x --³ö´í

@@ -408,7 +408,7 @@ struct print_t<list, false>
 };
 //x====================================================================================
 
-int main()
+void main_lisp()
 {
     // plus & minus
     //
@@ -521,7 +521,6 @@ int main()
     enumerate<decltype(sqr_print), e1>(sqr_print);      // 1 4 9
 
     std::cout << "\n\n>> end <<" << std::endl;
-    return 0;
 }
 #endif
 

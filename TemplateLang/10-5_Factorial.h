@@ -96,7 +96,7 @@ struct Maxium
 	enum
 	{
 		v1 = max(x, y),  
-		v3 = my_max(x,y),		// 非constexpr的函数调用是 运行期求值的
+		//v3 = my_max(x,y),		// 非constexpr的函数调用是 运行期求值的
 		v4 = my_max_constexpr(x,y)  //! constexpr 
 	};
 };
@@ -105,7 +105,7 @@ inline void test_maxium()
 {
 	using T0 = Maxium<5, 6>;
 	auto r1 = T0::v1;  //todo 未发生编译期计算，结果未默认的 enumerator值：0
-	auto r3 = T0::v3;  //todo 未发生编译期计算，结果未默认的 前一个enumerator值 + 1
+	//auto r3 = T0::v3;  //todo 未发生编译期计算，结果未默认的 前一个enumerator值 + 1
 	auto r4 = T0::v4;  // 6 ，正确
 }
 //x=====================================================================================================================

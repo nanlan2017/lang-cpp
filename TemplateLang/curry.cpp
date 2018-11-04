@@ -58,7 +58,7 @@ curry< F<a,b,c> , T1>    ===>    F<T1,b,c>
 
 
 
-int main()
+void main_curry()
 {
 	using R = curry<TestFunc>::type<char>::type<short>::type<long>;
 	cout << typeid(R).name() << endl;

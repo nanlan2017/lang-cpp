@@ -44,7 +44,7 @@ constexpr int foo(int i)
     return i + 5;
 }
 
-int main()
+void main_constexpr()
 {
     int i = 10;
 
