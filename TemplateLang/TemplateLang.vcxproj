@@ -131,6 +131,7 @@
     <ClInclude Include="github_lisp.h" />
     <ClInclude Include="haskell_subset.h" />
     <ClInclude Include="haskell_to_cpp.h" />
+    <ClInclude Include="haskell_utils.h" />
     <ClInclude Include="prelude.h" />
   </ItemGroup>
   <ItemGroup>

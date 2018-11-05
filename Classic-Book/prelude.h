@@ -10,6 +10,9 @@
 #include <algorithm>
 
 #include <memory>
+
+#include <functional>
+#include <type_traits>
 //x=============================================================================================
 #define static_const static const
 #define static_constexpr static constexpr

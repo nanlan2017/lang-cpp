@@ -118,6 +118,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="example1.cpp" />
+    <ClCompile Include="TMP-constructs.cpp" />
+    <ClCompile Include="traits_use.cpp" />
+    <ClCompile Include="_Main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="prelude.h" />
+    <ClInclude Include="util_control_flows.h" />
+    <ClInclude Include="_Exer_chap2.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
