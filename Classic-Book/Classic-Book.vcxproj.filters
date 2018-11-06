@@ -38,5 +38,14 @@
     <ClInclude Include="util_control_flows.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="prelude_boost.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ch3_dimension.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ch3_high_order.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

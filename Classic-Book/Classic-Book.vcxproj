@@ -124,7 +124,10 @@
     <ClCompile Include="_Main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="ch3_dimension.h" />
+    <ClInclude Include="ch3_high_order.h" />
     <ClInclude Include="prelude.h" />
+    <ClInclude Include="prelude_boost.h" />
     <ClInclude Include="util_control_flows.h" />
     <ClInclude Include="_Exer_chap2.h" />
   </ItemGroup>
