@@ -47,5 +47,11 @@
     <ClInclude Include="ch3_high_order.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="ch3_placeholder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="_Exer_chap3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

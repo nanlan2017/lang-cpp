@@ -2,7 +2,7 @@
 #define h_exer_chap2
 #include "prelude.h"
 #include <boost/polymorphic_cast.hpp>
-
+using namespace std;
 //x========================================================================================================
 template<typename T>
 struct add_const_ref: conditional<is_reference<T>::value, T , const T&>

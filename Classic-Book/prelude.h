@@ -18,7 +18,6 @@
 #define static_constexpr static constexpr
 
 #define PRINT(expression)  std::cout << expression << std::endl;
-using namespace std;
 
 //?  c++的宏 比lisp 差在哪儿？  没法控制求值？？   ,  ,@ 
 

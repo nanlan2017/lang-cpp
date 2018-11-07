@@ -118,6 +118,20 @@ private:
 	T m_value;
 };
 //x-----------------------------------------------------------------------
+template<typename T,typename D1,typename D2>
+auto operator+(quantity<T,D1> x, quantity<T,D2> y) -> quantity<T,D1>
+{
+	static_assert(mpl::equal<D1, D2>::type::value, "+ need equal dimensions");
+	return quantity<T, D1>(x.value() + y.value());
+}
+
+template<typename T,typename D1,typename D2>
+auto operator-(quantity<T,D1> x, quantity<T,D2> y) -> quantity<T,D1>
+{
+	static_assert(mpl::equal<D1, D2>::type::value, "- need equal dimensions");
+	return quantity<T, D1>(x.value() - y.value());
+}
+
 // 定义同类型的 + - 运算符
 template<typename T,typename D>
 quantity<T,D> operator+(quantity<T,D> x, quantity<T,D> y)
@@ -130,7 +144,6 @@ quantity<T,D> operator-(quantity<T,D> x, quantity<T,D> y)
 {
 	return quantity<T, D>(x.value() - y.value());
 }
-
 //x---------------------------------------------------------------------
 struct plus_f
 {
@@ -156,7 +169,7 @@ auto operator*(quantity<T,D1> x,quantity<T,D2> y)  -> quantity<T,typename mpl::t
 }
 
 template<typename T,typename D1, typename D2>
-auto operator/(quantity<T,D1> x,quantity<T,D2> y) -> quantity<T,typename mpl::transform<D1,D2,minus_f>::type> 
+auto operator/(quantity<T,D1> x,quantity<T,D2> y) -> quantity<T,typename divide_dimension<D1,D2>::type> 
 {
 	using dim = typename divide_dimension<D1,D2>::type;  // 先计算结果的量纲类型
 	return quantity<T, dim>(x.value() / y.value());
@@ -210,7 +223,12 @@ inline void test_ch3()
 	auto r7 = mpl::equal<momentum
 		, mpl::transform<mass, acceleration, plus_f>::type>::value; //false
 
-	quantity<float, force> r2 = mass1 * acc1;
+	quantity<float, force> f1(5.2f);
+	quantity<float, force> f2 = mass1 * acc1;
+	//todo   既然不能自动把  vec<1,0> 转变为 mass, 就放宽 + 的条件为 demension equal  
+	//!  (所有赋值、加、减的 两个量 的要求设定为： 量纲equal 才可进行值计算
+	quantity<float, force> f3 = f1 + mass1 * acc1;  // 没有自动进行量纲转等嘛！
+	//auto r9 = mass1 + mass1 * acc1; // 此处asset报错！！
 	//quantity<float, momentum> r4 = mass1 * acc1;  //! 编译build时，即assert!
 }
 #endif

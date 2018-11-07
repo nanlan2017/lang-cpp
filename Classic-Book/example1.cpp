@@ -3,6 +3,7 @@
 
 //template<typename T>
 //void showtype(T&&);
+using namespace std;
 
 //! 算法的动态版本
 namespace dynamic {

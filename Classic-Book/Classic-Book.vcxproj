@@ -126,10 +126,12 @@
   <ItemGroup>
     <ClInclude Include="ch3_dimension.h" />
     <ClInclude Include="ch3_high_order.h" />
+    <ClInclude Include="ch3_placeholder.h" />
     <ClInclude Include="prelude.h" />
     <ClInclude Include="prelude_boost.h" />
     <ClInclude Include="util_control_flows.h" />
     <ClInclude Include="_Exer_chap2.h" />
+    <ClInclude Include="_Exer_chap3.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
