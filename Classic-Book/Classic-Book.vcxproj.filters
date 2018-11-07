@@ -53,5 +53,11 @@
     <ClInclude Include="_Exer_chap3.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="ch4_int_wrapper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="_Exer_chap4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

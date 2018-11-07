@@ -9,6 +9,14 @@
 #include <boost/mpl/equal.hpp>
 #include <boost/mpl/multiplies.hpp>
 #include <boost/mpl/arithmetic.hpp>
+#include <boost/mpl/if.hpp>
+#include <boost/mpl/identity.hpp>
+
+//! type_traits
+#include <boost/type_traits/is_scalar.hpp>
+#include <boost/type_traits/add_reference.hpp>
+#include <boost/type_traits/is_function.hpp>
+
 
 //! other
 #include <boost/static_assert.hpp>
