@@ -59,5 +59,32 @@
     <ClInclude Include="_Exer_chap4.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="ch5_concept.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ch6_inserter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ch7_view.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ch8_dignostics.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ch9_foreach.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="callable_object.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ch9_function_call_dispatching.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ch9_func-obj_generator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ch9_enable_if.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

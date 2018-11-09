@@ -124,10 +124,19 @@
     <ClCompile Include="_Main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="callable_object.h" />
     <ClInclude Include="ch3_dimension.h" />
     <ClInclude Include="ch3_high_order.h" />
     <ClInclude Include="ch3_placeholder.h" />
     <ClInclude Include="ch4_int_wrapper.h" />
+    <ClInclude Include="ch5_concept.h" />
+    <ClInclude Include="ch6_inserter.h" />
+    <ClInclude Include="ch7_view.h" />
+    <ClInclude Include="ch8_dignostics.h" />
+    <ClInclude Include="ch9_enable_if.h" />
+    <ClInclude Include="ch9_foreach.h" />
+    <ClInclude Include="ch9_function_call_dispatching.h" />
+    <ClInclude Include="ch9_func-obj_generator.h" />
     <ClInclude Include="prelude.h" />
     <ClInclude Include="prelude_boost.h" />
     <ClInclude Include="util_control_flows.h" />

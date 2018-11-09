@@ -2,17 +2,20 @@
 #define H_PRELUD
 
 #include <string>
+#include <memory>
 #include <iostream>
 
+#include <iterator>
 #include <vector>
 #include <set>
 #include <map>
+#include <list>
 #include <algorithm>
-
-#include <memory>
 
 #include <functional>
 #include <type_traits>
+
+
 //x=============================================================================================
 #define static_const static const
 #define static_constexpr static constexpr

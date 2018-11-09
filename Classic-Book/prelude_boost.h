@@ -10,6 +10,7 @@
 #include <boost/mpl/equal_to.hpp>  // 值相等性
 #include <boost/mpl/sizeof.hpp>
 #include <boost/mpl/size_t.hpp>
+//#include <boost/mpl/apply_wrap.hpp>
 
 // 控制流程
 #include <boost/mpl/if.hpp>
@@ -50,15 +51,21 @@
 
 //! type_traits
 #include <boost/type_traits/is_scalar.hpp>
-#include <boost/type_traits/add_reference.hpp>
 #include <boost/type_traits/is_function.hpp>
+#include <boost/type_traits/is_polymorphic.hpp>
+#include <boost/type_traits/is_empty.hpp>
+
+#include <boost/type_traits/add_reference.hpp>
+
 
 //! fusion （融合分类）
 
 
-
 //! other
 #include <boost/static_assert.hpp>
+#include <boost/utility/enable_if.hpp>
+#include <boost/iterator/iterator_traits.hpp>
+
 
 
 namespace mpl = boost::mpl;
