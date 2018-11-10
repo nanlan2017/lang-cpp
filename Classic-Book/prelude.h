@@ -10,6 +10,7 @@
 #include <set>
 #include <map>
 #include <list>
+#include <array>
 #include <algorithm>
 
 #include <functional>

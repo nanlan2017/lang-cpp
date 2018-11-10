@@ -125,6 +125,8 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="callable_object.h" />
+    <ClInclude Include="ch10_expression_template.h" />
+    <ClInclude Include="ch11_dsl_radio.h" />
     <ClInclude Include="ch3_dimension.h" />
     <ClInclude Include="ch3_high_order.h" />
     <ClInclude Include="ch3_placeholder.h" />
@@ -137,6 +139,7 @@
     <ClInclude Include="ch9_foreach.h" />
     <ClInclude Include="ch9_function_call_dispatching.h" />
     <ClInclude Include="ch9_func-obj_generator.h" />
+    <ClInclude Include="ch9_sizeof.h" />
     <ClInclude Include="prelude.h" />
     <ClInclude Include="prelude_boost.h" />
     <ClInclude Include="util_control_flows.h" />

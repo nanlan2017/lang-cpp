@@ -86,5 +86,14 @@
     <ClInclude Include="ch9_enable_if.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="ch9_sizeof.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ch10_expression_template.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ch11_dsl_radio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
