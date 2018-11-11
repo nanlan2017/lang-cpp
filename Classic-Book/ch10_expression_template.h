@@ -9,7 +9,7 @@ class Array
 	: public std::array<T,sz>
 {
 	template<typename Exp>
-	Array& operator=(Array& r,Exp const& xs)
+	Array& operator=(Exp const& xs)
 	{
 		for (std::size_t i = 0; i<sz; ++i) {
 			this[i] = xs[i];

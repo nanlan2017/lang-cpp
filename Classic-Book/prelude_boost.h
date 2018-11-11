@@ -26,6 +26,7 @@
 // view
 #include <boost/mpl/transform_view.hpp>
 #include <boost/mpl/zip_view.hpp>
+#include <boost/mpl/filter_view.hpp>
 #include <boost/mpl/unpack_args.hpp>
 
 
@@ -47,6 +48,12 @@
 #include <boost/mpl/max_element.hpp>
 #include <boost/mpl/copy.hpp>
 
+//! preprocessor
+//todo  其中的Macro均以 BOOST_PP_...  开头
+#include <boost/preprocessor/repetition.hpp>
+#include <boost/preprocessor/arithmetic.hpp>
+#include <boost/preprocessor/punctuation.hpp>
+#include <boost/preprocessor/iteration.hpp>
 
 
 //! type_traits
@@ -57,7 +64,7 @@
 
 #include <boost/type_traits/add_reference.hpp>
 
-
+//x-------------------------------------------------------------------------------------------------
 //! fusion （融合分类）
 
 
