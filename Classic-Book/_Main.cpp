@@ -25,7 +25,7 @@ void test_foreach()
 
 }
 
-void main()
+void main99()
 {
 	ch10::test_exp_template();
 

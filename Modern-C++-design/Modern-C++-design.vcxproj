@@ -19,8 +19,8 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{760F3F5E-C947-4409-A80B-D3C2F48E1CAE}</ProjectGuid>
-    <RootNamespace>ClassicBook</RootNamespace>
+    <ProjectGuid>{76A4F134-1AAD-4ECF-A1C0-19759605F2ED}</ProjectGuid>
+    <RootNamespace>ModernCdesign</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -74,7 +74,6 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
-      <PreprocessToFile>false</PreprocessToFile>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -85,7 +84,6 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
-      <PreprocessToFile>false</PreprocessToFile>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -98,7 +96,6 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
-      <PreprocessToFile>false</PreprocessToFile>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -113,7 +110,6 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
-      <PreprocessToFile>false</PreprocessToFile>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -122,40 +118,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="curry.cpp" />
-    <ClCompile Include="declval.cpp" />
-    <ClCompile Include="example1.cpp" />
-    <ClCompile Include="POD_trival_standard-layout.cpp" />
-    <ClCompile Include="SFINEA.cpp" />
-    <ClCompile Include="TMP-constructs.cpp" />
-    <ClCompile Include="traits_use.cpp" />
-    <ClCompile Include="_Main.cpp" />
-    <ClCompile Include="_PreView.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="Append_A_preprocess.h" />
-    <ClInclude Include="callable_object.h" />
-    <ClInclude Include="ch10_expression_template.h" />
-    <ClInclude Include="ch11_dsl_radio.h" />
-    <ClInclude Include="ch3_dimension.h" />
-    <ClInclude Include="ch3_high_order.h" />
-    <ClInclude Include="ch3_placeholder.h" />
-    <ClInclude Include="ch4_int_wrapper.h" />
-    <ClInclude Include="ch5_concept.h" />
-    <ClInclude Include="ch6_inserter.h" />
-    <ClInclude Include="ch7_view.h" />
-    <ClInclude Include="ch8_dignostics.h" />
-    <ClInclude Include="ch9_enable_if.h" />
-    <ClInclude Include="ch9_foreach.h" />
-    <ClInclude Include="ch9_function_call_dispatching.h" />
-    <ClInclude Include="ch9_func-obj_generator.h" />
-    <ClInclude Include="ch9_sizeof.h" />
     <ClInclude Include="prelude.h" />
     <ClInclude Include="prelude_boost.h" />
-    <ClInclude Include="util_control_flows.h" />
-    <ClInclude Include="_Exer_chap2.h" />
-    <ClInclude Include="_Exer_chap3.h" />
-    <ClInclude Include="_Exer_chap4.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="policy_based_design.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

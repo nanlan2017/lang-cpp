@@ -33,6 +33,15 @@
     <ClCompile Include="curry.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="declval.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SFINEA.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="POD_trival_standard-layout.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="prelude.h">
