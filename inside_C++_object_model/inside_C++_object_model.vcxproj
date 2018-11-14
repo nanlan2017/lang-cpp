@@ -19,8 +19,8 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{76A4F134-1AAD-4ECF-A1C0-19759605F2ED}</ProjectGuid>
-    <RootNamespace>ModernCdesign</RootNamespace>
+    <ProjectGuid>{F959108B-F3CC-4A12-BBE1-440CC0E71880}</ProjectGuid>
+    <RootNamespace>inside_C_object_model</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -118,12 +118,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="ch4_small-object-allocator.h" />
     <ClInclude Include="prelude.h" />
-    <ClInclude Include="prelude_boost.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="policy_based_design.cpp" />
+    <ClCompile Include="ch1.cpp" />
+    <ClCompile Include="NormalInheritance.cpp" />
+    <ClCompile Include="VirtualInheritance.cpp" />
+    <ClCompile Include="vptr.cpp" />
+    <ClCompile Include="_Main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -74,7 +74,7 @@ private:
 };
 
 //test_creator
-void main()
+void test_creator()
 {
 	Dog* dog1 = OpNewCreator<Dog>::Create();
 	Dog* dog2 = MallocCreator<Dog>::Create();
@@ -148,4 +148,11 @@ class WidgetManager :public CreationPolicy<Widget>
 		myPolicy.SetPrototype(pNewPrototype);
 	}
 
+};
+
+
+struct MemCtrlBlock
+{
+	std::size_t size_ : 31;
+	bool     available_ : 1;
 };

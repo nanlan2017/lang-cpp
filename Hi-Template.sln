@@ -19,6 +19,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Classic-Book", "Classic-Boo
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Modern-C++-design", "Modern-C++-design\Modern-C++-design.vcxproj", "{76A4F134-1AAD-4ECF-A1C0-19759605F2ED}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "inside_C++_object_model", "inside_C++_object_model\inside_C++_object_model.vcxproj", "{F959108B-F3CC-4A12-BBE1-440CC0E71880}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -91,6 +93,14 @@ Global
 		{76A4F134-1AAD-4ECF-A1C0-19759605F2ED}.Release|x64.Build.0 = Release|x64
 		{76A4F134-1AAD-4ECF-A1C0-19759605F2ED}.Release|x86.ActiveCfg = Release|Win32
 		{76A4F134-1AAD-4ECF-A1C0-19759605F2ED}.Release|x86.Build.0 = Release|Win32
+		{F959108B-F3CC-4A12-BBE1-440CC0E71880}.Debug|x64.ActiveCfg = Debug|x64
+		{F959108B-F3CC-4A12-BBE1-440CC0E71880}.Debug|x64.Build.0 = Debug|x64
+		{F959108B-F3CC-4A12-BBE1-440CC0E71880}.Debug|x86.ActiveCfg = Debug|Win32
+		{F959108B-F3CC-4A12-BBE1-440CC0E71880}.Debug|x86.Build.0 = Debug|Win32
+		{F959108B-F3CC-4A12-BBE1-440CC0E71880}.Release|x64.ActiveCfg = Release|x64
+		{F959108B-F3CC-4A12-BBE1-440CC0E71880}.Release|x64.Build.0 = Release|x64
+		{F959108B-F3CC-4A12-BBE1-440CC0E71880}.Release|x86.ActiveCfg = Release|Win32
+		{F959108B-F3CC-4A12-BBE1-440CC0E71880}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

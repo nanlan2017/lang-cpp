@@ -15,18 +15,24 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="prelude_boost.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="prelude.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="ch4_small-object-allocator.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="policy_based_design.cpp">
+    <ClCompile Include="_Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ch1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NormalInheritance.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VirtualInheritance.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vptr.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
